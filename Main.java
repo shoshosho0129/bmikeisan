@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-
+		 for(int i = 1 ; i <= 2; i++){
 
             // 体重の入力
             System.out.println("体重(kg)を入力してください：");
@@ -22,7 +22,7 @@ public class Main {
 
             // BMIの評価
             evaluationBMI(bmi);
-   
+		 }
         sc.close();
     }
 
